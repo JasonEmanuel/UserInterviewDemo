@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SentView.swift
 //  UserInterviewDemo
 //
 //  Created by Jason Emanuel on 09/12/24.
@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, sent!")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    SentView()
 }
